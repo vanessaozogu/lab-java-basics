@@ -10,7 +10,7 @@ public class Employee {
         this.id = id;
         this.department = department;
         this.salary = salary;
-        this.isEmployed = isEmployed();
+        this.isEmployed = isEmployed;
     }
     public String getName() {
         return name;

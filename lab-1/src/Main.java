@@ -14,8 +14,9 @@ public class Main {
         employees_list[7] = new Employee("Vanessa_8", 8, "HR", 50000, false);
         employees_list[8] = new Intern("Vanessa_9", 9, "HR", 21000, true);
         employees_list[9] = new Intern("Audrey", 10, "HR", 15000, true);
-    }
+
         for (Employee emp : employees_list) {
-        System.out.println(emp);
+            System.out.println(emp);
+        }
     }
 }
